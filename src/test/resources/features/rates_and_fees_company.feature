@@ -15,10 +15,10 @@ Feature: Validate rates and fees
   @CaseOne
   Scenario Outline: validate the rates of free investment consumer credits
     When I select the Consumer line of credit with the Free Investment product for individuals.
-      | <product> | <services> |
+      | <product> |
     Then Verify that it is displayed in the consumer credit line.
       | <category> | <fees> |
 
     Examples:
-      | product  | services | category            | fees                |
-      | Personas | Créditos | Tasas de Colocación | Créditos de Consumo |
+      | product  | category            | fees                |
+      | Personas | Tasas de Colocación | Créditos de Consumo |
