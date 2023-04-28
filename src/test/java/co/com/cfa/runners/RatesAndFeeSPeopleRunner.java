@@ -6,12 +6,12 @@ import org.junit.runner.RunWith;
 
 @RunWith(CucumberWithSerenity.class)
 @CucumberOptions(
-        features = "src/test/resources/features/rates_and_fees_company.feature",
+        features = "src/test/resources/features/rates_and_fees_people.feature",
         glue = "co.com.cfa.stepdefinitions",
-        tags = "@CaseFour",
+        tags = "@CaseThree",
         plugin = {"pretty"},
         snippets = CucumberOptions.SnippetType.CAMELCASE
 )
 
-public class RatesAndFeeSCompanyRunner {
+public class RatesAndFeeSPeopleRunner {
 }

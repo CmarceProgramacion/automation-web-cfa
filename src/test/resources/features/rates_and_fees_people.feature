@@ -3,7 +3,7 @@
 #language: en
 
 @All
-Feature: Validate rates and fees
+Feature: Validate rates and fees for people
   As a user of CFA Cooperativa Financiera
   I want to access the platform
   To learn about the cooperative's rates and fees
@@ -16,12 +16,12 @@ Feature: Validate rates and fees
   Scenario Outline: validate the rates of free investment consumer credits
     When I select the Consumer line of credit with the Free Investment product for individuals.
       | <product> |
-    Then Verify that the product price list screen appears
-      | <category> | <fees> |
+    Then Verify that the price rates of the products appear on the screen
+      | <category> |
 
     Examples:
-      | product  | category            | fees                |
-      | Personas | Tasas de Colocación | Créditos de Consumo |
+      | product  | category            |
+      | Personas | Tasas de Colocación |
 
   @CaseTwo
   Scenario Outline: Validate the rates of traditional savings account rates
