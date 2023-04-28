@@ -36,7 +36,7 @@ Por obligacion para la ejecucion de la automatizacion se requiere los siguiente 
 - [x] 1: Instar Java en su versión 11.
 - [x] 1.1: Configurar variable de entorno JAVA_HOME
 
-Opcional mente puede instalar la version de gragle localmente:
+Opcional mente puede instalar la version de gradle localmente:
 - [x] 2: Instar Gradle en su versión 7.2
 - [x] 2.1: Configurar variable de entorno GRADLE_HOME
 
