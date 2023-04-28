@@ -7,7 +7,7 @@ import net.serenitybdd.screenplay.Tasks;
 import net.serenitybdd.screenplay.actions.Click;
 
 import static co.com.cfa.userinterfaces.ConsumerCreditPage.OPT_FREE_INVESTMENT_BTN;
-import static co.com.cfa.userinterfaces.FreeInvestmentPage.OPT_FREE_INVESTMENT_SEE_RATES_BTN;
+import static co.com.cfa.userinterfaces.ConsumerCreditPage.OPT_FREE_INVESTMENT_SEE_RATES_BTN;
 import static co.com.cfa.userinterfaces.HomePage.MENU_PRODUCTS_BTN;
 import static co.com.cfa.userinterfaces.HomePage.OPT_PEOPLE_BTN;
 import static co.com.cfa.userinterfaces.PeoplePage.MENU_CREDITS_BTN;
