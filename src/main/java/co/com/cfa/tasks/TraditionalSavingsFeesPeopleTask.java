@@ -13,15 +13,15 @@ import static co.com.cfa.userinterfaces.SavingsAccountsPage.OPT_TRADITIONAL_SAVI
 import static co.com.cfa.userinterfaces.SavingsLinesPeoplePage.OPT_SAVINGS_ACCOUNTS_BTN;
 import static co.com.cfa.userinterfaces.TraditionalSavingsPage.PRODUCT_RATES_FEES_BTN;
 
-public class TraditionalSavingsFeesTask implements Task {
+public class TraditionalSavingsFeesPeopleTask implements Task {
     private String product;
 
-    public TraditionalSavingsFeesTask(String product) {
+    public TraditionalSavingsFeesPeopleTask(String product) {
         this.product = product;
     }
 
     public static Performable whitData(String product) {
-        return Tasks.instrumented(TraditionalSavingsFeesTask.class, product);
+        return Tasks.instrumented(TraditionalSavingsFeesPeopleTask.class, product);
     }
 
     @Override
