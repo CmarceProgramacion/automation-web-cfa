@@ -16,7 +16,7 @@ Feature: Validate rates and fees
   Scenario Outline: validate the rates of free investment consumer credits
     When I select the Consumer line of credit with the Free Investment product for individuals.
       | <product> |
-    Then Verify that the free investment product rates screen is displayed
+    Then Verify that the product price list screen appears
       | <category> | <fees> |
 
     Examples:
@@ -33,3 +33,14 @@ Feature: Validate rates and fees
     Examples:
       | product  | fees                       |
       | Personas | Tasas de captación Ahorros |
+
+  @CaseThree
+  Scenario Outline: Validate the rates of the Productive Credit tariffs
+    When I select the Productive Credit product
+      | <product> |
+    Then Verify that the product price list screen appears
+      | <category> | <fees> |
+
+    Examples:
+      | product  | category            | fees                |
+      | Personas | Tasas de Colocación | Créditos de Consumo |
