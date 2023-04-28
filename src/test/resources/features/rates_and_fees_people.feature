@@ -38,9 +38,9 @@ Feature: Validate rates and fees
   Scenario Outline: Validate the rates of the Productive Credit tariffs
     When I select the Productive Credit product
       | <product> |
-    Then Verify that the product price list screen appears
-      | <category> | <fees> |
+    Then Verify that the price rates of the products appear on the screen
+      | <category> |
 
     Examples:
-      | product  | category            | fees                |
-      | Personas | Tasas de Colocación | Créditos de Consumo |
+      | product  | category            |
+      | Personas | Tasas de Colocación |
