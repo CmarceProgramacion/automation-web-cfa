@@ -16,7 +16,7 @@ import java.util.List;
 
 import static net.serenitybdd.screenplay.actors.OnStage.theActorInTheSpotlight;
 
-public class RatesAndFessCompanyStepDefinition {
+public class RatesAndFessPeopleStepDefinition {
     @Given("that I access the platform of the CFA Cooperativa Financiera")
     public void thatIAccessThePlatformOfTheCFACooperativaFinanciera() {
         theActorInTheSpotlight().wasAbleTo(Open.browserOn().the(HomePage.class));
